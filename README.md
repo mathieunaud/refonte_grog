@@ -6,6 +6,7 @@ Participants:
 
 Expression des besoins:
 Optimiser et fusionner l'application grog et grhyb.
+Prevoir l'ajout possible de nouveau type de médicaments
 
 Solution proposée:
 SGBD : Postgre
