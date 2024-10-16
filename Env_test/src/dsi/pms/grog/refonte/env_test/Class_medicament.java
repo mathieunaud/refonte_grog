@@ -49,15 +49,20 @@ public class Class_medicament {
 
     public class Class_Hybride extends Class_medicament {
         private String situationMedicale;
+        private String NDC;
 
-        public Class_Hybride(String libelle, int codeCIS, String EEN, String AMM, String situationMedicale, String groupegene, String titulaire, String voieadmi) {
+        public Class_Hybride(String libelle, int codeCIS, String EEN, String AMM, String situationMedicale, String NDC, String groupegene, String titulaire, String voieadmi) {
             super(libelle, codeCIS, EEN, AMM, groupegene, titulaire, voieadmi);
             this.situationMedicale = situationMedicale;
+            this.NDC = NDC;
         }
 
         // Getters
         public String getSituationMedicale() {
             return situationMedicale;
+        }
+        public String NDC() {
+            return NDC;
         }
     }
     public class Class_Generique extends Class_medicament {
